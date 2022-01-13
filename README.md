@@ -1,23 +1,23 @@
-# pycounts
+# pycounts_sg
 
 Calculate word counts in a text file!
 
-Documentation availiable on [readthedocs](https://pycounts-toy.readthedocs.io/en/latest/index.html) as well.
+Documentation availiable on [readthedocs](https://pycounts_sg-toy.readthedocs.io/en/latest/index.html) as well.
 
 ## Installation
 
 ```bash
-$ pip install pycounts
+$ pip install pycounts_sg
 ```
 
 ## Usage
 
-`pycounts` can be used to count words in a text file and plot results
+`pycounts_sg` can be used to count words in a text file and plot results
 as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+from pycounts_sg.pycounts_sg import count_words
+from pycounts_sg.plotting import plot_words
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
@@ -34,12 +34,12 @@ By contributing to this project, you agree to abide by its terms.
 
 ## License
 
-`pycounts` was created by Tomas Beuzen. It is licensed under the terms
+`pycounts_sg` was created by Tomas Beuzen. It is licensed under the terms
 of the MIT license.
 
 ## Credits
 
-`pycounts` was created with 
+`pycounts_sg` was created with 
 [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and 
 the `py-pkgs-cookiecutter` 
 [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
